@@ -3,6 +3,10 @@ from django.http import HttpResponse
 
 # Create your views here.
 
-def members(request):
-    return HttpResponse('Hello World')
+def home(request):
+    return HttpResponse('<h1>Hello World</h1>')
+
+
+def about(request):
+    return HttpResponse("<h1>About Us</h1>")
     
